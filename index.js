@@ -25,7 +25,7 @@ const scrollRevealOption = {
 ScrollReveal().reveal(".header-image img", {
     ...scrollRevealOption,
     origin : "right",
-})
+});
 ScrollReveal().reveal(".header-image img", {
     ...scrollRevealOption,
     origin : "right",
@@ -33,14 +33,18 @@ ScrollReveal().reveal(".header-image img", {
 ScrollReveal().reveal(".header-content h1", {
     ...scrollRevealOption,
     delay : 500,
-})
+});
 ScrollReveal().reveal(".header-content p", {
     ...scrollRevealOption,
     delay : 1000,
-})
+});
 ScrollReveal().reveal(".header-links", {
     ...scrollRevealOption,
     delay : 1500,
-})
+});
+ScrollReveal().reveal(".steps-card", {
+    ...scrollRevealOption,
+    interval : 600,
+});
 
 
