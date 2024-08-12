@@ -29,7 +29,7 @@ ScrollReveal().reveal(".header-image img", {
 ScrollReveal().reveal(".header-image img", {
     ...scrollRevealOption,
     origin : "right",
-})
+});
 ScrollReveal().reveal(".header-content h1", {
     ...scrollRevealOption,
     delay : 500,
@@ -46,5 +46,23 @@ ScrollReveal().reveal(".steps-card", {
     ...scrollRevealOption,
     interval : 600,
 });
+ScrollReveal().reveal(".service-img img", {
+    ...scrollRevealOption,
+    origin : "left",
+});
 
+
+ScrollReveal().reveal(".service-content .section-subheader", {
+    ...scrollRevealOption,
+    delay: 500,
+});
+ScrollReveal().reveal(".service-content .section-header", {
+    ...scrollRevealOption,
+    delay: 1000,
+});
+ScrollReveal().reveal(".service-list li", {
+    ...scrollRevealOption,
+    delay: 1500,
+    interval : 500,
+});
 
