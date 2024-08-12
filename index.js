@@ -65,4 +65,8 @@ ScrollReveal().reveal(".service-list li", {
     delay: 1500,
     interval : 500,
 });
+ScrollReveal().reveal(".experience-card", {
+    duration : 1000,
+    interval : 600,
+});
 
