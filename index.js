@@ -26,10 +26,6 @@ ScrollReveal().reveal(".header-image img", {
     ...scrollRevealOption,
     origin : "right",
 });
-ScrollReveal().reveal(".header-image img", {
-    ...scrollRevealOption,
-    origin : "right",
-});
 ScrollReveal().reveal(".header-content h1", {
     ...scrollRevealOption,
     delay : 500,
@@ -70,3 +66,20 @@ ScrollReveal().reveal(".experience-card", {
     interval : 600,
 });
 
+
+ScrollReveal().reveal(".download-img img", {
+    ...scrollRevealOption,
+    origin : "right",
+});
+ScrollReveal().reveal(".download-content .section-header", {
+    ...scrollRevealOption,
+    delay : 500,
+});
+ScrollReveal().reveal(".download-content p", {
+    ...scrollRevealOption,
+    delay : 1000,
+});
+ScrollReveal().reveal(".download-links", {
+    ...scrollRevealOption,
+    delay : 1500,
+});
