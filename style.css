@@ -237,6 +237,9 @@ nav{
     display: grid;
     gap: 2rem;
 }
+.section-subheader{
+    font-size: 1.2rem;
+}
 .service-list li{
     display: flex;
     align-items: flex-start;
